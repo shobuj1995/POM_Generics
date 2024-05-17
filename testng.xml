@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/Automation Tools/FullAutomation/OOP_Concepts">
+        <classes>
+            <class name="com.qa.test.HomePageTest">
+                <methods>
+                    <include name="homePageTitleTest"/>
+                    <include name="verifyUserName"/>
+                </methods>
+            </class>
+            <class name="com.qa.test.LoginTest">
+                <methods>
+                    <include name="verifyLoginPageTitleTest"/>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
